@@ -1,0 +1,64 @@
+{
+  "name": "r-design",
+  "version": "1.0.0",
+  "description": "基于 react native 和 Ant Design Mobile 的移动端UI组件设计库",
+  "keywords": [
+  "react-native",
+	"react-component",
+	"react-native-calendar",
+	"react-native-picker",
+	"react-native-navigation",
+	"react-native-button",
+	"react-native-switch",
+	"react-native-flatlist",
+	"react-native-tab",
+	"react-native-checkbox",
+	"react-native-textinput",
+	"react-native-toast",
+	"react-native-modal",
+	"react-native-dialog",
+	"react-native-menu",
+	"react-native-progress",
+	"react-native-datepicker",
+	"antd-mobile",
+	"react-native-ui-widget",
+	"react-native-drawer-layout",
+	"react-native-tab-bar"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GankLun/R-Design.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/GankLun/R-Design/issues"
+  },
+  "author": "ganklun@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "antd-mobile": "^2.1.8",
+    "prop-types": "^15.6.1",
+    "rc-form": "^2.1.7",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.1",
+    "react-native-calendars": "^1.17.6",
+    "react-navigation": "^1.5.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-jest": "22.4.1",
+    "babel-plugin-import": "^1.6.7",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.8.0",
+    "eslint-config-react-native": "^2.0.0",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "r-design",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于 react native 和 Ant Design Mobile 的移动端UI组件设计库",
   "keywords": [
   "react-native",
@@ -47,7 +47,7 @@
     "react-navigation": "^1.5.9"
   },
   "devDependencies": {
-    "react-native": "^0.55.3",
+    "react-native": "0.54.1",
     "babel-eslint": "^8.0.2",
     "babel-jest": "22.4.1",
     "babel-plugin-import": "^1.6.7",

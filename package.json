@@ -1,6 +1,6 @@
 {
   "name": "r-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于 react native 和 Ant Design Mobile 的移动端UI组件设计库",
   "keywords": [
   "react-native",

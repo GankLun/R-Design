@@ -19,10 +19,13 @@ R-Design 是基于react native 和 antd-mobile的移动端RN UI Widget。
 - RN官方以及Ant Design Mobile组件对于Switch等高度依赖于平台特性，例如我希望Android端就想显示IOS的效果不容易实现等等。
 - RN官方实现Button需要复合组件封装等等。
 
-## 设计原则：
+## 设计原则
 - 组件尽量屏蔽及解决各种issue,调用者无需关注。
 - 样式基于默认规则的同时又支持高度定制化完成个性化需求。
 - 完全基于属性配置。
+
+## 特别说明
+- DrawerLayout,TabBar,TabLayout请直接使用react-navigation中的DrawerNavigator和TabNavigator。R-Design里的RTabBarItem可以完美契合这两组件。
 
 ### 配置要求
 

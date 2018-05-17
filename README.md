@@ -10,7 +10,7 @@ R-Design 是基于react native 和 antd-mobile的移动端RN UI Widget。
 
 - 基于 React Native 的多平台支持。
 - 自由的视觉样式配置，适应各类产品风格。
-- 提供类型定义文件,一看便知如何使用,方便自动提示。
+- 提供类型定义文件index.d.ts,一看便知如何使用,方便自动提示。
 
 ## 为什么使用它
 - 在这里首先十分感谢蚂蚁金服ant design mobile团队开发的UI Widget，可以说十分方便了，但是使用过程中还是有不少问题，例如部分组件修改样式不方便或者说组件的部分样式无法修改，输入框在RN环境下使用时clear按钮无法显示,inputItem,Switch必须在List下工作等等问题，其他问题可以看官方issue,总体来说ant design mobile服务于蚂蚁及口碑无线业务更加合适。
@@ -26,6 +26,7 @@ R-Design 是基于react native 和 antd-mobile的移动端RN UI Widget。
 
 ## 特别说明
 - DrawerLayout,TabBar,TabLayout请直接使用react-navigation中的DrawerNavigator和TabNavigator。R-Design里的RTabBarItem可以完美契合这两组件。
+- [react-navigation](https://github.com/react-navigation/react-navigation) 或者参考作者的[Demo]（https://github.com/GankLun/RDesignDemo）。
 
 ### 配置要求
 
@@ -33,9 +34,24 @@ R-Design 是基于react native 和 antd-mobile的移动端RN UI Widget。
 node@4+
 npm@3+
 ```
+### 使用说明
+- react-native init RDesignDemo.
+- yarn add r-design 或者 npm install --save r-design
+- yarn add babel-plugin-import --dev 或者 npm install --save-dev babel-plugin-import
+- 编辑.babelrc 如下：
+ {
+  "presets": ["react-native"],
+  "plugins": [
+    ["import", { "libraryName": "antd-mobile" }] 
+  ]
+ }
+-具体使用参考[Demo]（https://github.com/GankLun/RDesignDemo）
+
 
 ## 参考链接
 
 - [首页](http://mobile.ant.design)
 - [RN中文网站](https://reactnative.cn/)
 - [react-navigation](https://github.com/react-navigation/react-navigation)
+- [react-native-calendars](https://github.com/wix/react-native-calendars)
+- [Demo]（https://github.com/GankLun/RDesignDemo）

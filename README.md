@@ -45,8 +45,7 @@ npm@3+
     ["import", { "libraryName": "antd-mobile" }] 
   ]
  }
-  具体使用参考
-  - [Demo](https://github.com/GankLun/RDesignDemo)
+  具体使用参考[Demo](https://github.com/GankLun/RDesignDemo)
 
 
 ## 参考链接

@@ -43,6 +43,7 @@
     "prop-types": "^15.6.1",
     "rc-form": "^2.1.7",
     "react-native-calendars": "^1.17.6",
+    "react-dom": "^16.3.2",
     "react-navigation": "^1.5.9"
   },
   "devDependencies": {

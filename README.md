@@ -26,8 +26,7 @@ R-Design 是基于react native 和 antd-mobile的移动端RN UI Widget。
 
 ## 特别说明
 - DrawerLayout,TabBar,TabLayout请直接使用react-navigation中的DrawerNavigator和TabNavigator。R-Design里的RTabBarItem可以完美契合这两组件。
-- [react-navigation](https://github.com/react-navigation/react-navigation) 或者参考作者的
-- [Demo](https://github.com/GankLun/RDesignDemo)
+- [react-navigation](https://github.com/react-navigation/react-navigation) 或者参考作者的[Demo](https://github.com/GankLun/RDesignDemo)
 
 ### 配置要求
 
